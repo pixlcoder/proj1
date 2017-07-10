@@ -1,10 +1,9 @@
-# Name:
-# Date:
-
-# proj01: A Simple Program
-# This program asks the user for his/her name and age.
-# Then, it prints a sentence that says when the user will turn 100.
-
-# If you complete extensions, describe your extensions here!
-
-
+n = raw_input("enter your name: ")
+a = raw_input("enter your age: ")
+b = raw_input("have you had a birthday this year? ")
+if a > 100:
+    print n, "turned 100 in the year", 2017-int(a)+100
+elif b == "yes":
+    print n, "will turn 100 in the year", 2017-int(a)+100
+elif b == "no":
+    print n, "will turn 100 in the year", 2017-int(a)+99
